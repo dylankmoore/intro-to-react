@@ -19,3 +19,25 @@ a {
 body {
   background-color: oldlace;
 }
+
+button {
+background-color: lavender;
+border-color: oldlace;
+border-radius: 12px;
+padding: 5px;
+width: 300px;
+margin-left: 200px;
+}
+
+button:hover{
+  background-color: powderblue;
+  transition: 0.7s;
+}
+
+h1{
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}

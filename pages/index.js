@@ -17,11 +17,12 @@ function Home() {
       style={{
         height: '90vh',
         padding: '30px',
-        maxWidth: '400px',
+        maxWidth: '750px',
         margin: '0 auto',
+        backgroundImage: 'url("https://img.freepik.com/premium-vector/wavy-shapes-swirling-strokes-vector-seamless-pattern-attractive-multicolored-design-children_717949-597.jpg")',
       }}
     >
-      <h1>Hello {user.displayName}! </h1>
+      <h1>Hello {user.displayName}!</h1>
       <h2>{value}</h2>
       <button type="button" onClick={handleClick}>Increment</button>
       <button type="button" onClick={() => setValue((prevState) => prevState - 1)}>Decrement</button>

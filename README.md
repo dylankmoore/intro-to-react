@@ -1,3 +1,5 @@
+ - [Link to deployed site](https://dkm-counter.netlify.app/)
+
 # React/Next.js Template
 
 [See Live Demo of this Template](https://drt-next-js-template.netlify.app/)
